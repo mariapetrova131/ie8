@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,600');
+
+/* font-family: "BebasNeue Regular"; */
+@font-face {
+    font-family: "BebasNeue Regular";
+    src: url("../fonts/bebas/BebasNeue Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+	background: url(img/background.jpg);
+	// font-family: "BebasNeue Regular";
+	font-family: "Roboto", sans-serif;
+}
+
+
+.ba-container {
+	width: 80%;
+	height: 40em;
+	margin: auto;
+	}
+
+.ba-container__white {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	    
+	width: 25%;
+	background-color: white;
+	display: inline-block;
+	margin: 3%;
+	height: 27em;
+	padding: 0 2em;
+
+}
+
+.ba-container__gray {
+	height: 27em;
+}
+
+
+button {
+  /* Для хороших браузеров */
+  -moz-border-radius: 20px; /* Firefox */
+  -webkit-border-radius: 20px; /* Safari, Chrome */
+  -khtml-border-radius: 20px; /* KHTML */
+  border-radius: 20px; /* CSS3 */
+  /* Для плохих IE */
+  behavior: url(border-radius.htc); /* учим IE border-radius */
+  background-color: #6fcffb;
+  color: white;
+  font-weight: 600;
+	height: 2.5em;
+	font-size: 0.8em;
+	margin-left: 2.6em;
+	border: transparent;
+	margin-top: 5.3em;
+}
+
+.ba-container__img {
+	margin-left: 5.6em;
+}
+
+h1, h2 {
+	text-align: center;
+	font-family: "BebasNeue Regular", sans-serif;
+}
+
+h1{
+	font-weight: 100;
+}
+
+
+h2 {
+	font-weight: 400;
+	font-size: 20px;
+}
+.ba-container__white:hover {
+	height: 30em;
+	
+}
+
+.ba-container__white:hover button {
+	background-color: #fd8d7b;
+	margin-bottom: -5em;
+}
+
+
+* {
+	-webkit-transition: all .1s ease-out;
+    -moz-transition: all .1s ease-out;
+    -ms-transition: all .1s ease-out;
+    -o-transition: all .1s ease-out;
+    transition: all .1s ease-out;
+}
